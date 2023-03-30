@@ -52,7 +52,7 @@ get_download_url() {
 	platform="$(get_arch)"
 	local cpu
 	cpu=$(get_cpu)
-	echo "https://github.com/grafana/mimir/releases/download/mimir-${version}/mimir-${platform}-${cpu}"
+	echo "https://github.com/grafana/mimir/releases/download/mimir-${version}/mimirtool-${platform}-${cpu}"
 }
 
 install_mimirtool "$ASDF_INSTALL_TYPE" "$ASDF_INSTALL_VERSION" "$ASDF_INSTALL_PATH"
